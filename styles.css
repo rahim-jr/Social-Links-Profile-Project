@@ -1,20 +1,14 @@
 @font-face {
-    font-family: 'inter';
-    src: url(/assets/fonts/static/Inter-Regular.ttf) format('truetype');
-    font-weight: 400 ;
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 400 700; /* Range */
+    font-style: normal;
 }
 
-@font-face {
-    font-family: 'inter';
-    src: url(/assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
-    font-weight: 600 ;
+body{
+    font-family: Inter, sans-serif; 
+    font-size: 14px ;
 }
-
-@font-face {
-    font-family: 'inter';
-    src: url(/assets/fonts/static/Inter-Bold.ttf) format('truetype');
-    font-weight: 700 ;
-} 
 
 .attribution { 
     font-size: 11px; text-align: center; 
