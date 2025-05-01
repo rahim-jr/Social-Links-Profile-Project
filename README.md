@@ -36,8 +36,8 @@ Here is a screenshot of the completed project:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/rahim-jr/Social-Links-Profile-Project)
+- Live Site URL: [LIVE URL](https://rahim-jr.github.io/Social-Links-Profile-Project/)
 
 ## My process
 
