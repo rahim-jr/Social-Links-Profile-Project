@@ -11,32 +11,28 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+This project involved creating a responsive social links profile page. The goal was to implement a clean and accessible design that works seamlessly across different devices. The challenge focused on practicing modern web development techniques, including semantic HTML, CSS for layout and styling, and ensuring interactive elements have proper hover and focus states.
+
+The design required attention to detail, particularly in replicating the provided layout and ensuring the user experience is intuitive. By completing this project, I gained hands-on experience with responsive design principles and improved my ability to create visually appealing and functional web pages.
 
 ### The challenge
+The challenge was to build out a social links profile page and ensure it looks as close to the provided design as possible. Users should be able to:
 
-Users should be able to:
-
+- View the optimal layout for the site depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+- Navigate the page using a keyboard for accessibility
+- Ensure the design is responsive and visually appealing across different screen sizes
+- Implement semantic HTML and clean, maintainable CSS
+- Optionally, add animations or transitions to enhance the user experience
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Here is a screenshot of the completed project:
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Screenshot of the Social Links Profile](./assets/Frontend%20Mentor%20Social%20links%20profile.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -45,66 +41,53 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+To complete this project, I followed a structured approach:
+
+1. **Planning and Setup**:  
+    I started by carefully analyzing the design and requirements provided in the challenge. I set up the project structure, including the necessary folders for assets, styles, and components.
+
+2. **HTML Markup**:  
+    I wrote semantic HTML to ensure the structure of the page was accessible and easy to understand. I used appropriate tags for headings, lists, and links to maintain a logical document flow.
+
+3. **Styling with CSS**:  
+    I implemented a mobile-first workflow, starting with styles for smaller screens and progressively enhancing the design for larger viewports. I used CSS custom properties for consistent theming and utilized Flexbox and Grid for layout management.
+
+4. **Interactivity and Accessibility**:  
+    I added hover and focus states to all interactive elements to improve the user experience. I also ensured the page was fully navigable via keyboard and adhered to accessibility best practices.
+
+5. **Testing and Debugging**:  
+    I tested the design across multiple devices and browsers to ensure responsiveness and compatibility. I used browser developer tools to debug and refine the layout and styles.
+
+6. **Final Touches**:  
+    I optimized the code for readability and maintainability. I also added animations to enhance the user experience, ensuring they were subtle and non-intrusive.
+
+This process helped me stay organized and efficiently complete the project while adhering to best practices in web development.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Through this project, I gained a deeper understanding of several key web development concepts:
 
-To see how you can add code snippets, see below:
+1. **Responsive Design**:  
+    I improved my ability to create layouts that adapt seamlessly to different screen sizes using a mobile-first approach. This involved leveraging CSS Grid and Flexbox to build flexible and scalable designs.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+2. **Semantic HTML**:  
+    Writing semantic HTML helped me structure the content in a way that is both accessible and meaningful. This practice not only improves accessibility but also enhances the maintainability of the code.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+3. **CSS Custom Properties**:  
+    I learned how to use CSS custom properties effectively to maintain consistent theming throughout the project. This made it easier to manage and update styles.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+4. **Accessibility Best Practices**:  
+    Ensuring that all interactive elements had proper hover and focus states taught me the importance of accessibility. I also learned how to make the page fully navigable via keyboard.
 
-### Continued development
+5. **Testing and Debugging**:  
+    Testing the project across different devices and browsers helped me identify and fix layout inconsistencies. This experience reinforced the importance of thorough testing in delivering a polished product.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+6. **Subtle Animations**:  
+    Adding animations to enhance the user experience taught me how to strike a balance between functionality and aesthetics. I focused on keeping animations subtle and non-distracting.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Overall, this project was a valuable opportunity to practice and refine my front-end development skills while adhering to modern web standards.
