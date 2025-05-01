@@ -1,16 +1,76 @@
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
     font-weight: 400 700; /* Range */
     font-style: normal;
 }
 
-body{
-    font-family: Inter, sans-serif; 
-    font-size: 14px ;
+.white{
+    color: hsl(0, 0%, 100%);
 }
 
+.green{
+    color:  hsl(75, 94%, 57%);
+}
+
+body{
+    font-family: Inter, sans-serif;   
+    background-color: #141414;
+}
+
+img { 
+    border-radius: 50%;
+}
+
+p { 
+    font-size : 14px ;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    background: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 100px 0;
+}
+
+.linktree{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 550px;
+    margin: 0 auto; /* center if needed */
+}
+
+.linktree li{
+    background-color: #333333;
+    color: white;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.linktree li:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.linktree li:hover a{ 
+    color :black
+}
+  
 .attribution { 
+    color: white ;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
